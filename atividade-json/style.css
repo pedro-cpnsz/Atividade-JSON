@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+table.zebra {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.zebra thead {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    font-weight: bold;
+    background-color: #bbb;
+    color: #000;
+}
+
+table.zebra td {
+    border: 1px solid #ccc;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+table.zebra tr:nth-child(even) {
+    background-color: #ddd;
+}
+
+table.zebra tr:hover {
+    background-color: #bbb;
+}
